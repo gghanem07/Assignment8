@@ -89,6 +89,6 @@ jobs:
           context: .
           push: true
           tags: |
-            gghanem07/Assignment8:latest
-            gghanem07/Assignment8:${{ github.sha }}
+            gghanem07/assignment8:latest
+            gghanem07/assignment8:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
